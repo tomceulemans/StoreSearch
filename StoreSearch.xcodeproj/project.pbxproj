@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		581CD1031C9752660075C450 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581CD1021C9752660075C450 /* SearchViewController.swift */; };
+		586EA94B1CC01AEB00D3D7DF /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586EA94A1CC01AEB00D3D7DF /* SearchResultCell.xib */; };
+		586EA94D1CC01E4E00D3D7DF /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EA94C1CC01E4E00D3D7DF /* SearchResultCell.swift */; };
+		586EA94F1CC020CC00D3D7DF /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586EA94E1CC020CC00D3D7DF /* NothingFoundCell.xib */; };
 		588A3EAD1C9750C300B04AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588A3EAC1C9750C300B04AB0 /* AppDelegate.swift */; };
 		588A3EB21C9750C300B04AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588A3EB01C9750C300B04AB0 /* Main.storyboard */; };
 		588A3EB41C9750C300B04AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588A3EB31C9750C300B04AB0 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		581CD1021C9752660075C450 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		586EA94A1CC01AEB00D3D7DF /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		586EA94C1CC01E4E00D3D7DF /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		586EA94E1CC020CC00D3D7DF /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		588A3EA91C9750C300B04AB0 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		588A3EAC1C9750C300B04AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		588A3EB11C9750C300B04AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				588A3EB01C9750C300B04AB0 /* Main.storyboard */,
 				581CD1021C9752660075C450 /* SearchViewController.swift */,
 				58E0304F1C98A858001ED5D6 /* SearchResult.swift */,
+				586EA94A1CC01AEB00D3D7DF /* SearchResultCell.xib */,
+				586EA94C1CC01E4E00D3D7DF /* SearchResultCell.swift */,
+				586EA94E1CC020CC00D3D7DF /* NothingFoundCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -127,6 +136,8 @@
 			files = (
 				588A3EB71C9750C300B04AB0 /* LaunchScreen.storyboard in Resources */,
 				588A3EB41C9750C300B04AB0 /* Assets.xcassets in Resources */,
+				586EA94B1CC01AEB00D3D7DF /* SearchResultCell.xib in Resources */,
+				586EA94F1CC020CC00D3D7DF /* NothingFoundCell.xib in Resources */,
 				588A3EB21C9750C300B04AB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +151,7 @@
 			files = (
 				581CD1031C9752660075C450 /* SearchViewController.swift in Sources */,
 				58E030501C98A858001ED5D6 /* SearchResult.swift in Sources */,
+				586EA94D1CC01E4E00D3D7DF /* SearchResultCell.swift in Sources */,
 				588A3EAD1C9750C300B04AB0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
