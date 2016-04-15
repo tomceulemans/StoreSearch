@@ -16,6 +16,7 @@
 		588A3EB41C9750C300B04AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588A3EB31C9750C300B04AB0 /* Assets.xcassets */; };
 		588A3EB71C9750C300B04AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588A3EB51C9750C300B04AB0 /* LaunchScreen.storyboard */; };
 		58E030501C98A858001ED5D6 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E0304F1C98A858001ED5D6 /* SearchResult.swift */; };
+		58FF50671CC17B3A002A519B /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58FF50661CC17B3A002A519B /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		588A3EB61C9750C300B04AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		588A3EB81C9750C300B04AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E0304F1C98A858001ED5D6 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		58FF50661CC17B3A002A519B /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				588A3EB51C9750C300B04AB0 /* LaunchScreen.storyboard */,
 				588A3EB01C9750C300B04AB0 /* Main.storyboard */,
 				581CD1021C9752660075C450 /* SearchViewController.swift */,
+				58FF50661CC17B3A002A519B /* LoadingCell.xib */,
 				58E0304F1C98A858001ED5D6 /* SearchResult.swift */,
 				586EA94A1CC01AEB00D3D7DF /* SearchResultCell.xib */,
 				586EA94C1CC01E4E00D3D7DF /* SearchResultCell.swift */,
@@ -136,6 +139,7 @@
 			files = (
 				588A3EB71C9750C300B04AB0 /* LaunchScreen.storyboard in Resources */,
 				588A3EB41C9750C300B04AB0 /* Assets.xcassets in Resources */,
+				58FF50671CC17B3A002A519B /* LoadingCell.xib in Resources */,
 				586EA94B1CC01AEB00D3D7DF /* SearchResultCell.xib in Resources */,
 				586EA94F1CC020CC00D3D7DF /* NothingFoundCell.xib in Resources */,
 				588A3EB21C9750C300B04AB0 /* Main.storyboard in Resources */,
